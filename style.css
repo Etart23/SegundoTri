@@ -1,9 +1,10 @@
 :root{
-    --cor-fundo: #031a2e;
+    --cor-fundo: #0d4576;
     --cor-principal: #0B0D20 ;
     --cor-secundaria: #2b3dc2;
     --cor-destaque: #3f1e62;
-    --cor-texto: #D7F9FF;
+    --cor-texto01: #D7F9FF;
+    --cor-texto02: #07059d;
 }
 
 body{
@@ -28,6 +29,9 @@ body{
 h1{
     color: var(--cor-destaque);
     
+}
+h2{
+    color: var(--cor-texto02);
 }
 
 .caixa-perguntas{
